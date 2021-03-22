@@ -241,5 +241,9 @@ void QuickDemo::inrange_Demo(Mat& image) {
 	bitwise_not(mask, mask);
 	imshow("masknot", mask);
 	image.copyTo(redback, mask);
-	imshow("redback", redback);
+	imshow("ROI«¯”ÚÃ·»°", redback);
+}
+
+void QuickDemo::pixelStatistic_Demo(Mat& image) {
+
 }

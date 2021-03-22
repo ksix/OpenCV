@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 int main(int argc, char** argv) {
-	Mat src = imread("C:/Users/ksig/Pictures/tiger.png");
+	Mat src = imread("C:/Users/ksig/Pictures/flowers.jpg");
 	//src = imread("C:/Users/ksig/Pictures/Œ¢–≈Õº∆¨_20210319095003.jpg");
 	if (src.empty()) {
 		printf("couldn't load picture.");
@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
 	imshow("input", src);
 
 	QuickDemo qd;
-	qd.inrange_Demo(src);
+	qd.pixelStatistic_Demo(src);
 
 	waitKey(0);
 }

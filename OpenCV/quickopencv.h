@@ -13,5 +13,6 @@ public:
 	void colorStyle_Demo(Mat& image);//颜色表操作
 	void bitWise_Demo(Mat& image);//画矩形&与或非
 	void channels_Demo(Mat& image);//通道的分离与合并
-	void inrange_Demo(Mat& image);//色彩空间转换
+	void inrange_Demo(Mat& image);//色彩空间转换，ROI区域提取
+	void pixelStatistic_Demo(Mat& image);//像素的最值均值方差
 };
