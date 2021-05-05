@@ -660,7 +660,7 @@ void QuickDemo::bifilter_DemoX(Mat& image) {
 		capture.read(frame);
 		if (frame.empty())
 			break;
-		bilateralFilter(frame, dst, 0, 100, 10);
+		bilateralFilter(frame, dst, 0, 30, 10);
 		imshow("≥£πÊ", frame);
 		imshow("√¿—’", dst);
 		if (waitKey(1) == 27)
